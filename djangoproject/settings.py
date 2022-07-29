@@ -87,11 +87,11 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-        'NAME': 'ins_app_1',
+        'NAME': '',
 
         'USER': 'postgres',
 
-        'PASSWORD': 'pksg',
+        'PASSWORD': '',
 
         'HOST': 'localhost',
 
