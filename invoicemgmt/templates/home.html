@@ -1,0 +1,27 @@
+{% load static %}
+{% include 'navbar.html' %}
+<head>
+	<link rel="shortcut icon" href="#">
+    <link rel="stylesheet" type="text/css" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link href="{% static '/css/stylesheet.css' %}" rel="stylesheet">
+</head>
+
+<div class="jumbotron my-2">
+	<h1 class="display-4">Inspection System</h1>
+	<p class="lead">This is a simple web-application for vendors and users to put items to be inspected by the company.</p>
+	<hr class="my-4">
+	<p>It uses forms and prints pdf for any isnpection items that the user/vendor fills.</p>
+	<p class="lead">
+	  <a class="btn btn-primary btn-lg" href="/accounts/login" role="button">Proceed</a>
+	</p>
+  </div>
+
+<div class="row">
+
+	{% block title %}
+	{% endblock %}
+
+	{% block content %}
+	{% endblock %}
+</div>
